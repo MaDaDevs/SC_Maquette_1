@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+@import url("reset.css");
+/*------------- COMMONS -----------*/
+body
+{
+	font-size: 11px;
+	font-family: 'Droid Sans';
+	color: #676464;
+}
+
+.container
+{
+	width: 940px;
+	margin: auto;
+}
+
+.nav1
+{
+	border-bottom: 5px solid #F76900;
+}
+
+.nav1 a:hover
+{
+	text-decoration: none;
+}
+
+.nav2
+{
+	border-bottom: 5px solid #FCd04A;
+}
+
+.nav2 a:hover
+{
+	text-decoration: none;
+}
+
+.nav3
+{
+	border-bottom: 5px solid #B9D482;
+}
+
+.nav3 a:hover
+{
+	text-decoration: none;
+}
+
+.nav4
+{
+	border-bottom: 5px solid #3D92C2;
+}
+
+.nav4 a:hover
+{
+	text-decoration: none;
+}
+
+.nav5
+{
+	border-bottom: 5px solid #C078D0;
+}
+
+.nav5 a:hover
+{
+	text-decoration: none;
+}
+
+.serif
+{
+	font-family: 'Droid Serif';
+	font-style: italic;
+	font-size: 12px;
+	color: #7C7C7C;
+}
+
+.orange
+{
+	font-family: 'Oswald';
+	color: #EA7B2A;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.date
+{
+	font-family: 'Droid Serif';
+	font-style: italic;
+	font-size: 10px;
+	color: #7C7C7C;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.line
+{
+	line-height: 18px;
+}
+/*-------------- FIN COMMONS ----------*/
+
+/*------------- HEADER ------------*/
+header
+{
+	width: 100%;
+	background-image: url(misc/grille.png);
+	background-repeat: repeat;
+	margin-bottom: 10px;
+	padding: 30px;
+}
+
+header h1
+{
+	display: inline-block;
+}
+
+header #logo
+{
+	margin-right: 70px;
+}
+/*------------- FIN HEADER ----------*/
+
+/*------------NAV ------------------*/
+nav
+{
+	display: inline-block;
+}
+
+nav ul
+{
+	display: inline-block;
+}
+
+nav ul li:first-child
+{
+	font-family: 'Oswald';
+	margin-bottom: 8px;
+	font-size: 15px;
+	
+	padding-bottom: 7px;
+}
+
+nav ul li
+{
+	padding-right: 20px;
+	padding-top: 5px;
+	color: #7C7C7C;
+	list-style: none;
+}
+
+nav ul li a, nav ul li a:visited
+{
+	color: #7C7C7C;
+	text-decoration: none;
+}
+
+nav ul li a:hover
+{
+	text-decoration: underline;
+}
+/*-------------- FIN HEADER -----------*/
+
+/*------------- SECTION PART 1 ---------------*/
+#Part1
+{
+	border-top: solid 1px #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+	padding: 30px;
+}
+
+#Part1 iframe
+{
+	display: block;
+	margin: auto;
+	width: 600px; 
+	height: 375px;
+}
+
+/*------------- FIN SECTION PART 1 -----------*/
+
+/*-------------SECTION PART 2 ------------*/
+#Part2
+{
+	background-image: url(misc/grille.png);
+}
+#Part2 h2
+{
+	font-family: 'Droid Serif';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #929292;
+	padding: 30px;
+	text-align: center;
+}
+/*----------- FIN SECTION PART 2 ---------*/
+
+/*------------- SECTION PART 3 ----------*/
+#Part3
+{
+	border-bottom: 1px solid #F0F0F0;
+	margin-bottom: 10px;
+	border-top: 1px solid #F0F0F0;
+	margin-top: 10px;
+	padding: 30px 0px;
+}
+#Part3 #golf
+{
+	border: 1px solid #F0F0F0;
+	padding: 10px 15px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+}
+
+#Part3 h3
+{
+	margin: 0px;
+}
+
+#Part3 p
+{
+	color: #676464;
+	line-height: 18px;
+}
+#Part3 a
+{
+	text-decoration: none;
+	color: #7C7C7C;
+}
+
+#Part3 a:hover
+{
+	text-decoration: underline;
+}
+
+#Part3 #loisirs
+{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-right: -4px;
+	margin-left: 20px;
+}
+
+#Part3 #loisirs article:last-child
+{
+	padding-top: 20px;
+}
+
+#Part3 #commentaires
+{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-right: -4px;
+	margin-left: 20px;
+}
+
+#Part3 #commentaires img
+{
+	border: 1px solid #F0F0F0;
+	padding: 6px;
+	margin: 5px 5px 5px 0px;
+	background-color: #FFF;
+	transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+}
+
+#Part3 #commentaires img:hover
+{
+	transform: scale(1.1);
+}
+
+/*-------------- FIN SECTION PART 3 -----------*/
+
+/*----------------- SECTION PART 4 ------------*/
+#Part4
+{
+	background-image: url(misc/grille.png);
+	padding: 20px;
+}
+
+#Part4 #contact 
+{
+	display: inline-block;
+	width: 20%;
+}
+
+#Part4 #contact img
+{
+	float: left;
+}
+#Part4 #contact ul
+{
+	padding: 0px;
+}
+
+#Part4 #contact ul li
+{
+	list-style: none;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#Part4 article
+{
+	display: inline-block;
+	width: 20%;
+	margin-left: 55px;
+	vertical-align: top;
+}
+
+#Part4 h2
+{
+	font-family: 'Oswald';
+	font-size: 15px;
+	color: #7C7C7C;
+}
+
+#Part4 a, #Part4 a:visited
+{
+	text-decoration: underline;
+	color: #676464;
+}
+
+/*-------------- FIN SECTION PART 4 -------------*/
+
+/*--------------- FOOTER --------------*/
+footer
+{
+	color: #7C7C7C;
+	padding: 20px 0px;
+	border-top: 1px solid #F0F0F0;
+	margin-top: 10px;
+}
+
+footer ul
+{
+	padding: 0px;
+}
+
+footer ul li
+{
+	display: inline-block;
+	
+}
+
+footer ul li a, footer ul li a:visited
+{
+	color: #7C7C7C;
+	text-decoration: none;
+}
+
+footer ul li a:hover
+{
+	text-decoration: underline;
+}
+
+footer #images
+{
+	float: right;
+}
+
+footer #images img
+{
+	opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+footer #images img:hover
+{
+	opacity: 0.5;
+}
+/*--------------- FIN FOOTER ----------*/
